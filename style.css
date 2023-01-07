@@ -4,59 +4,92 @@
     font-family: 'Montserrat', sans-serif;
 }
 /* header, banner and nav bar style start */
-#header{
+#header-wrap{
     background-image: url(images/banner.png);
     background-repeat: no-repeat;
     height: 800px;
     padding: 50px 100px;
 }
-#header .nav-bar{
+#header-wrap .nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#header .nav-bar .logo img{
+#header-wrap .nav-bar .logo img{
     width: 100px;
     height: 60px;
 }
-#header .nav-bar .menu ul{
+#header-wrap .nav-bar .menu ul{
     display: flex;
 }
-#header .nav-bar .menu ul li{
+#header-wrap .nav-bar .menu ul li{
     list-style: none;
     margin-left: 50px;
 }
-#header .nav-bar .menu ul li a{
+#header-wrap .nav-bar .menu ul li a{
     text-decoration: none;
     color: #000;
     font-weight: 700;
 }
-#header .nav-bar .menu ul li a:hover{
+#header-wrap .nav-bar .menu ul li a:hover{
     color: #FD6E0A;
 }
-#header .banner-content{
+#header-wrap .banner-content{
     text-align: end;
     margin-top: 75px;
 }
-#header .banner-content h2{
+#header-wrap .banner-content h2{
     font-size: 65px;
     font-weight: bold;
 }
-#header .banner-content p{
+#header-wrap .banner-content p{
     margin-top: 20px;
     line-height: 25px;
 }
-#header .banner-content button{
+#header-wrap .banner-content button{
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
     padding: 15px 25px;
     margin-top: 20px;
 }
-#header .banner-content button a{
+#header-wrap .banner-content button a{
     text-decoration: none;
     color: #fff;
     font-weight: 700;
     font-size: 16px;
 }
 /* header, banner and nav bar style End */
+/* failures section start */
+#failures-wrap{
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+}
+#failures-wrap .fail-content{
+padding-left: 50px;
+margin-top: 100px;
+}
+#failures-wrap .fail-content h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+#failures-wrap .fail-content p{
+    margin-top: 20px;
+    line-height: 25px;
+}
+#failures-wrap .fail-content ul{
+    margin-top: 20px;
+}
+#failures-wrap .fail-content ul li{
+    line-height: 25px;
+    list-style: none;
+}
+/* I'm search in google "list style check mark in css" then stackoverflow give me the before solution */
+#failures-wrap .fail-content ul li::before{
+    content: '✓';
+    color: #16D887;
+    font-weight: bold;
+    margin-right: 5px;
+}
+/* failures section End */
