@@ -61,35 +61,42 @@
 }
 /* header, banner and nav bar style End */
 /* failures section start */
-#failures-wrap{
+.failures-wrap{
     padding: 50px 100px;
     display: flex;
     align-items: center;
 }
-#failures-wrap .fail-content{
+.failures-wrap .fail-content{
 padding-left: 50px;
 margin-top: 100px;
 }
-#failures-wrap .fail-content h2{
+.failures-wrap .fail-content h2{
     font-size: 50px;
     font-weight: bold;
 }
-#failures-wrap .fail-content p{
+.failures-wrap .fail-content p{
     margin-top: 20px;
     line-height: 25px;
 }
-#failures-wrap .fail-content ul{
+.failures-wrap .fail-content ul{
     margin-top: 20px;
 }
-#failures-wrap .fail-content ul li{
+.failures-wrap .fail-content ul li{
     line-height: 25px;
     list-style: none;
 }
 /* I'm search in google "list style check mark in css" then stackoverflow give me the before solution */
-#failures-wrap .fail-content ul li::before{
+.failures-wrap .fail-content ul li::before{
     content: '✓';
     color: #16D887;
     font-weight: bold;
     margin-right: 5px;
 }
 /* failures section End */
+/* success section start */
+.success-wrap .success-content{
+    padding-left: 0px;
+    padding-right: 50px;
+}
+/* failures section and success section all content type almost same so I replaced all classes to minimize my codes */
+/* success section end */
