@@ -175,4 +175,73 @@ margin-top: 100px;
     font-size: 16px;
 }
 /* call now section end */
+/* footer section start */
+#footer-wrap{
+    background-color: #000;
+    padding: 100px 100px 15px 100px;
+}
+#footer-wrap .footer-content-wrap{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 50px;
+}
+#footer-wrap .footer-content-wrap .footer-content h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+#footer-wrap .footer-content-wrap .footer-content p{
+    color: #fff;
+    margin-top: 10px;
+    line-height: 25px;
 
+}
+#footer-wrap .footer-content-wrap .footer-content h5{
+    color: #fff;
+    margin-top: 20px;
+}
+#footer-wrap .footer-content-wrap .footer-content .social{
+    margin-top: 25px;
+}
+#footer-wrap .footer-content-wrap .footer-content .social img{
+    margin-right: 10px;
+    width: 40px;
+}
+#footer-wrap .footer-content-wrap .subscribe-section h2{
+    color: #fff;
+}
+#footer-wrap .footer-content-wrap .subscribe-section .sub-email{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 15px 70px 15px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+/* Search in google how to chane placeholder txt color then goto w3school and find ::placeholder poperty*/
+#footer-wrap .footer-content-wrap .subscribe-section .sub-email::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+#footer-wrap .footer-content-wrap .subscribe-section .sub-btn{
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+    padding: 15px 25px;
+    margin-top: 20px;
+    color: #FD6E0A;
+    font-size: 18px;
+    font-weight: bold;
+}
+#footer-wrap .copy-write-section p{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;;
+    margin-top: 15px;
+}
+/* footer section end */
