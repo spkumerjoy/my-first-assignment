@@ -132,6 +132,7 @@ margin-top: 100px;
     text-align: center;
 }
 .recent-projects h2{
+    margin-top: 20px;
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 50px;
@@ -144,7 +145,7 @@ margin-top: 100px;
 /* recent project section start */
 /* call now section start */
 .call-now-wrap{
-    padding: 50px 100px;
+    padding: 100px 100px;
 }
 .call-now-wrap .call-now-bg{
     background-image: linear-gradient(to right,rgba(255, 0, 0, 0.587),rgba(255, 255, 0, 0.363),rgba(0, 238, 255, 0.587)), url(images/watch.png);
@@ -183,7 +184,7 @@ margin-top: 100px;
 #footer-wrap .footer-content-wrap{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #E1E1E1;
+    border-bottom: 0.5px solid #E1E1E1;
     padding-bottom: 50px;
 }
 #footer-wrap .footer-content-wrap .footer-content h1{
